@@ -1,0 +1,33 @@
+body {
+    background: #ea4949;
+}
+.question {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.answer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.answer-list li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.answer-list li label {
+    cursor: pointer;
+}
+
+.btn-color-theme {
+    color: white;
+    background-color: #d53333;
+    transition: 0.3s;
+}
+
+.btn-color-theme:hover {
+    color: white !important;
+    background-color: #ff0000 !important;
+}
